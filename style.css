@@ -19,7 +19,7 @@ margin: 0 auto;
 
 .content {
 
-    min-height: 80px;
+    min-height: 60px;
     background: linear-gradient(90deg,
             rgba(203, 18, 133, 1)0%,
             rgba(80, 49, 145, 1)70%);
@@ -58,7 +58,7 @@ margin: 0 auto;
     display: none;
 }
 .menu-icono{
-    width: 15px;
+    width: 10px;
 }
 .menu label {
     cursor: pointer;
@@ -69,15 +69,54 @@ h1{
     margin: 80px auto ;
     
 }
+.index-main .arrow{
+    
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+  .index-main .arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid rgb(181, 9, 193);
+    border-right: 5px solid rgb(240, 66, 129);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .index-main .arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+  .index-main .arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
 
 
 @media(max-width:768px){
 .content {
-        min-height: 100px;
+        min-height: 80px;
     }
    .menu{
     top: 0;
-    padding: 12px;
+    padding: 8px;
+   
    }
 
 .menu label{
@@ -95,7 +134,7 @@ h1{
 }
 
 .menu .navbar ul li {
-    width: 100%;
+    width: 25%;
 }
 
 
