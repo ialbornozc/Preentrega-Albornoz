@@ -12,9 +12,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+ body {
+min-height: 100vh;
+background-color: rgb(226, 51, 159);
+min-width: 100%;
+
+}
 .container{
 max-width: 1200px;
-margin: 0 auto;
+margin: 0 auto auto;
 }
 
 .menu .container {
@@ -25,7 +31,7 @@ z-index: 1;
 }
 .content {
 
-    min-height: 60px;
+    min-height: 100px;
     background: linear-gradient(90deg,
             rgba(203, 18, 133, 1)0%,
             rgba(80, 49, 145, 1)70%);
@@ -39,9 +45,10 @@ z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .logo{
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
@@ -51,8 +58,8 @@ z-index: 1;
     float: left;
 }
 .menu .navbar ul li a{
-    font-size: 17px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 25px;
     color: #ffffff;
     display: block;
     font-weight: bold;
@@ -72,10 +79,21 @@ z-index: 1;
     display: none;
 }
 
-h1{
-    margin: 80px auto ;
-    
+
+
+
+.titulo1 .main-title h1 {
+margin: 50px;
+color: #ffffff;
+font-size: 100px;
+display: flex;
+justify-content: center;
+justify-items:center ;
 }
+
+    
+    
+
 .index-main .arrow{
     
     position: absolute;
@@ -118,23 +136,648 @@ h1{
 
 
 
+ 
+
+  /* corresponde a box1*/
+  .main .box1 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+
+
+
+.main .box1 h2 {
+
+position: absolute;
+bottom:  140px;
+margin: auto;
+left: 20px;
+padding-bottom: 15%;
+white-space: nowrap;
+
+}
+.main .box1 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .box1 .about-index .about-ix-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10%;
+  }
+  .main .box1 p {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+ .box1  .about-ix-text p {
+    font-size: 35px;
+   color: #ffffff;
+    float: left;
+    border: 3px solid;
+    margin-right: 50px; 
+  }
+  .main .box1 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .box1 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin-left: 200px;
+  }
+
+
+
+
+
+/* corresponde a box2*/
+
+
+
+.main .box2 h2 {
+
+    position: absolute;
+    bottom:  140px;
+    margin: auto;
+    left: 500px;
+    padding-bottom: 15%;
+    white-space: nowrap;
+    
+ }
+
+.main .box2 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom:10%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 15%;
+ display: flex;
+ justify-content: center;
+
+
+}
+.main .box2 .about-index .about-ix-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 10%;
+    margin-left: -8%;
+    justify-content: space-between;
+  
+  }
+  .main .box2 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+justify-content: center;
+justify-items: center;
+}
+
+.box2 .about-ix-text p {
+    font-size: 35px;
+    color: #ffffff;
+    float: left;
+    border: 4px solid;
+    margin-left: 400px;
+  }
+  .main .box2.about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .main .box2 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+
+.main .box2 .about-ix-img{
+    position: absolute;
+    left: 0px;
+}
+
+/* corresponde a box3*/
+.main .box3 h2 {
+
+    position: absolute;
+    bottom:  140px;
+    margin: auto;
+    left: 20px;
+    padding-bottom: 15%;
+    white-space: nowrap;
+    
+ }
+
+
+
+.main .box3 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 5%;
+}
+.main .box3 .about-index .about-ix-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+ 
+    justify-content: space-between;
+    font-size: 45px;
+    color: #ffffff;
+  }
+  .main .box3 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .about-ix-text p {
+    font-size: 35px;
+    color: #ffffff;
+    float: right;
+    border: 4px solid;
+    margin-right: 400px;
+  }
+  .main .box3 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .box3 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+
+/* pages*/
+/* pages*/
+/* pages*/
+/* pages*/
+/* pages*/
+
+/* nosotros*/
+
+
+.main .nosotros-main p{
+    font-size: 40px;
+
+}
+
+.title-nosotros h1{
+margin: 50px;
+        color: #ffffff;
+        font-size: 100px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        
+}
+
+
+
+.main .nosotros-main .box4 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+
+
+
+
+
+.main .nosotros-main .box4 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .nosotros-main .box4 .about-index .about-ix-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    ;
+    position: relative;
+right: 7%;
+bottom: 200px;
+  }
+  .main .nosotros-main .box4 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.main .nosotros-main .box4 p {
+     
+       color: #f0ecec;
+        float: left;
+        border: 3px solid;
+        margin-right: -60%; 
+        position: relative;
+    right: 70%;
+    
+  }
+  .main .nosotros-main .box4 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .nosotros-main .box4 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+/*correwponde a box 5*/
+
+
+
+.main .nosotros-main .box5 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    margin-left: 30%;
+   position: relative;
+   bottom: 20%;
+}
+
+
+.main .nosotros-main .box5 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .nosotros-main .box5 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+
+position: relative;
+left: 85%;
+bottom: 230px;
+  
+  }
+  .main .nosotros-main .box5 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .nosotros-main .box5 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .box5 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.nosotros-main .box5 .about-index .about-ix-img{
+    position: absolute;
+    left: 0px;
+}
 
 
 
 
 
 
+/* servicios*/
+.title-servicio h1 {
+    margin: 50px;
+    color: #ffffff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items:center ;
+    }
+    
+        
+
+.main .main-servicio .box6 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   right: 5%;
+   margin-right: 40%;
+}
+
+
+.main .main-servicio .box6 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-servicio .box6 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+right: 68%;
+bottom: 80%;
+
+  
+  }
+  .main .main-servicio .box6 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-servicio .box6 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+  }
+  .main .box6 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+
+/* servicios    box7*/
 
 
 
 
+    
+    
+    .main .main-servicio .box7 h2{
+        color: #ffffff;
+        font-size: 60px;
+        white-space: nowrap;
+        
+      }
+      .main .main-servicio .box7 p{
+        font-size: 45px;
+        color: #ffffff;
+        float: left;
+        border: 3px solid;
+        position: relative;
+       bottom: 20%;
+       text-align: justify;
+       left: 44%;
+       margin-right: 40%;
+    }
+    
+    
+    
+    
+    .main .main-servicio .box7 .about-index{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+     margin: auto;
+     margin-bottom: 10%;
+     margin-top: 2%;
+     display: flex;
+     align-items: center;
+     background-color: rgba(76, 45, 145);
+     padding: 10%;
+     
+    }
+    .main .main-servicio .box7 .about-index .about-ix-title {
+        color: #ffffff;
+        display: flex;
+        justify-content: end;
+        justify-items: end;
+        align-items: center;
+        font-size: 50px;
+        float: right;
+        white-space: nowrap;
+    
+    position: absolute;
+    left: 68%;
+    bottom: 80%;
+    
+      
+      }
+      .main .main-servicio .box7 .about-index .about-ix-text {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+      .main .main-servicio .box7 .about-index .about-ix-img {
+        grid-row: span 2/span 2;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 70%;
+      }
+      .main .box7 .about-index .about-ix-img img {
+        width: 550px;
+        height: 375px;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+    
+/* servicios    box8*/
 
-.footer {
-    background-image: url( images/foot.svg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 0px;
+
+    
+    
+.main .main-servicio .box8 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+  .main .main-servicio .box8 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   left: 44%;
+   margin-right: 40%;
+}
+
+
+
+
+.main .main-servicio .box8 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-servicio .box8 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+left: 74%;
+bottom: 80%;
+
+  
+  }
+  .main .main-servicio .box8 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-servicio .box8 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 68%;
+  }
+  .main .box8 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 
@@ -143,6 +786,688 @@ h1{
 
 
 
+/* logoros box9*/
+
+.title-logros  h1{
+    margin: 50px;
+    color: #ffffff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    }
+
+
+
+
+.main .main-logros .box9 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+  .main .main-logros .box9 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   left: 44%;
+   margin-right: 40%;
+}
+
+
+
+
+.main .main-logros .box9 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-logros .box9 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+left: 74%;
+bottom: 80%;
+
+  
+  }
+  .main .main-logros .box9 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-logros .box9 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 75%;
+  }
+  .main .main-logros .box9 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+/* logoros box 10*/
+
+
+.main .main-logros .box10 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   right: 5%;
+   margin-right: 40%;
+}
+
+
+.main .main-logros .box10 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-logros .box10 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+right: 71%;
+bottom: 80%;
+
+  
+  }
+  .main .main-logros .box10 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-logros .box10 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+  }
+  .main .box10 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+
+/* logoros box 11*/
+
+.main .main-logros .box11 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+  .main .main-logros .box11 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   left: 44%;
+   margin-right: 40%;
+}
+
+
+
+
+.main .main-logros .box11 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-logros .box11 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+left: 74%;
+bottom: 80%;
+
+  
+  }
+  .main .main-logros .box11 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-logros .box11 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 75%;
+  }
+  .main .box11 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+/* logoros box 12*/
+
+
+.main .main-logros .box12 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   right: 5%;
+   margin-right: 40%;
+}
+
+
+.main .main-logros .box12 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-logros .box12 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+right: 71%;
+bottom: 80%;
+
+  
+  }
+  .main .main-logros .box12 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-logros .box12 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+  }
+  .main .box12 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+/* dedicacion box 13*/
+.title-dedicacion h1 {
+    margin: 50px;
+    color: #ffffff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items:center ;
+    }
+.main .main-dedicacion .box13 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+  .main .main-dedicacion .box13 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   left: 44%;
+   margin-right: 40%;
+}
+
+
+
+
+.main .main-dedicacion .box13 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-dedicacion .box13 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+left:69%;
+bottom: 80%;
+
+  
+  }
+  .main .main-dedicacion .box13 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-dedicacion .box13 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 68%;
+  }
+  .main .main-dedicacion .box13 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+/* dedicacion box14*/
+.main .main-dedicacion .box14 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   right: 5%;
+   margin-right: 40%;
+}
+
+
+.main .main-dedicacion .box14 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-dedicacion .box14 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+right: 71%;
+bottom: 80%;
+
+  
+  }
+  .main .main-dedicacion .box14 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-dedicacion .box14 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+  }
+  .main .main-dedicacion .box14 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+/* dedicacion box15*/
+.main .main-dedicacion .box15 h2{
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap;
+    
+  }
+  .main .main-dedicacion .box15 p{
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    border: 3px solid;
+    position: relative;
+   bottom: 20%;
+   text-align: justify;
+   left: 44%;
+   margin-right: 40%;
+}
+
+
+
+
+.main .main-dedicacion .box15 .about-index{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+ margin: auto;
+ margin-bottom: 10%;
+ margin-top: 2%;
+ display: flex;
+ align-items: center;
+ background-color: rgba(76, 45, 145);
+ padding: 10%;
+ 
+}
+.main .main-dedicacion .box15 .about-index .about-ix-title {
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    font-size: 50px;
+    float: right;
+    white-space: nowrap;
+
+position: absolute;
+left: 74%;
+bottom: 80%;
+
+  
+  }
+  .main .main-dedicacion .box15 .about-index .about-ix-text {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .main .main-dedicacion .box15 .about-index .about-ix-img {
+    grid-row: span 2/span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 68%;
+  }
+  .main .main-dedicacion .box15 .about-index .about-ix-img img {
+    width: 550px;
+    height: 375px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dedicacion*/
+
+
+
+
+
+
+
+
+
+
+
+/* contacto*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-image: url( images/foot.svg);
+ 
+    background-position: absolute  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    bottom: 0;
+    min-height: 40vh;
+
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.footer-sec h2{
+font-size: 40px;
+ color: #ffffff;
+ margin-bottom: 10px;
+ position: relative;
+top:  40px;
+
+
+}
+
+.footer-txt{
+
+color: #ffffff;
+text-align: center;
+font-size: 18px;
+margin: 0px;
+padding-top: 10px;
+}
+.footer-contact{
+    display: flex;
+}
+
+.footer-contact{
+    padding-top: 10px;
+    border: 3px solid;
+    margin: 0;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 42%;
+    top: 500%;
+}
+.footer-red{
+    display: flex;
+}
+
+.links{
+    display: flex;
+}
+
+
+.links{
+    border: 3px solid; 
+
+    position: absolute;
+    left: 46%;
+    top: 1600%;
+}
+
+.footer p{
+
+    color: #ffffff;
+    position: absolute;
+    margin-bottom: 20px;
+    top: 337%;
+    left: 5%;
+}
 
 
 
