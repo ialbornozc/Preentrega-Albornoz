@@ -1,1 +1,7 @@
-// tengo error en consola y no me deja instalar ni git hub ni sass ;C y tengo instalado los dos
+@forward"./styles/variables/variables";
+//layout//
+
+@forward"./styles/layout/header";
+@forward"./styles/layout/main";
+@forward"./styles/layout/footer";
+@forward"./styles/base";

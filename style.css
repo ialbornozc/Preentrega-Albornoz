@@ -1860,7 +1860,7 @@ body {
   align-items: center;
   margin-bottom: 5%;
   position: relative;
-  bottom: 5rem;
+  bottom: 8rem;
   right: 8rem;
   text-align: justify;
   text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
@@ -1891,7 +1891,7 @@ min-height: 100%;
   box-sizing: border-box;
   text-align: justify;
   position: relative;
-  top: 8rem;
+  top: 9rem;
  right:187.5rem;
 }
 
@@ -1909,9 +1909,9 @@ min-height: 100%;
   position: relative;
   bottom: 2rem;
   margin-top: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 16rem;
   padding: 0 40px;
-  right: 146%;
+  right: 128%;
 }
 
 /* esto es de box 2*/

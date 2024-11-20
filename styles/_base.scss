@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(../../images/EDz0eYiXYAAfzPs.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
