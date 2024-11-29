@@ -8,7 +8,7 @@
 %box {
     display: grid;
     grid-template-rows: auto 1fr; // 2 filas: título y contenido
-
+    padding-bottom: 2rem;
     background: linear-gradient(90deg,
             rgb(34, 71, 236)0%,
             rgb(29, 14, 238)70%);
@@ -32,11 +32,11 @@
             grid-column: 1 / 2; // Primera columna
 
             img {
-                width: 100%;
-                height: auto;
+                
+                
                 object-fit: cover; // Asegura que la imagen se ajuste al contenedor
                 width: 550px;
-                height: 400px;
+                height: 300px;
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             }
         }
@@ -47,7 +47,7 @@
             align-items: center; // Centra verticalmente el texto
             justify-content: center; // Centra horizontalmente el texto
             text-align: center; // Asegura el centrado de líneas múltiples
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
             color: antiquewhite;
             font-weight: bold;
@@ -69,11 +69,11 @@
             grid-column: 1 / 2; // Imagen en la primera columna
 
             img {
-                width: 100%;
+                
                 height: auto;
                 object-fit: cover; // Asegura que la imagen se ajuste al contenedor
                 width: 550px;
-                height: 400px;
+                height: 300px;
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             }
         }
@@ -84,7 +84,7 @@
             align-items: center; // Centra verticalmente el texto
             justify-content: center; // Centra horizontalmente el texto
             text-align: center;
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
             color: antiquewhite;
             font-weight: bold;
@@ -130,6 +130,7 @@
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
+        width: 100%;
     }
 
     %box {
@@ -222,6 +223,7 @@
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
+        width: 100%;
     }
 
     %box {
@@ -301,6 +303,285 @@
                 justify-content: center; // Centra horizontalmente el texto
                 text-align: center;
                 font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
+@media (max-width:576px) {
+    .main-container {
+        grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+        width: 100%;
+    }
+
+    %box {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+        .box-title {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 50px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img {
+                grid-column: 2 / 3; // Primera columna
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 350px;
+                    height: 200px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt {
+                grid-row: 2 / 3; // Segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center; // Asegura el centrado de líneas múltiples
+                font-size: 1.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    .box2 {
+
+        .box-content {
+            grid-template-rows: 1fr auto; // Mantiene dos columnas pero con orden invertido
+
+            .box-img2 {
+                grid-column: 2 / 3; // Imagen en la primera columna
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 350px;
+                    height: 200px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt2 {
+                grid-row: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 1.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
+@media (max-width:480px) {
+    .main-container {
+        grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+        width: 100%;
+    }
+
+    %box {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+        .box-title {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 50px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img {
+                grid-column: 2 / 3; // Primera columna
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 250px;
+                    height: 170px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt {
+                grid-row: 2 / 3; // Segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center; // Asegura el centrado de líneas múltiples
+                font-size: 1.3rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    .box2 {
+
+        .box-content {
+            grid-template-rows: 1fr auto; // Mantiene dos columnas pero con orden invertido
+
+            .box-img2 {
+                grid-column: 2 / 3; // Imagen en la primera columna
+
+                img {
+                   
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 250px;
+                    height: 170px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt2 {
+                grid-row: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 1.3rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
+@media (max-width:360px) {
+    .main-container {
+        grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+        width: 100%;
+    }
+
+    %box {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+        .box-title {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 50px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img {
+                grid-column: 2 / 3; // Primera columna
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 250px;
+                    height: 170px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt {
+                grid-row: 2 / 3; // Segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center; // Asegura el centrado de líneas múltiples
+                font-size: 1.3rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    .box2 {
+
+        .box-content {
+            grid-template-rows: 1fr auto; // Mantiene dos columnas pero con orden invertido
+
+            .box-img2 {
+                grid-column: 2 / 3; // Imagen en la primera columna
+
+                img {
+                   
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 250px;
+                    height: 170px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt2 {
+                grid-row: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 1.3rem;
                 text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
                 color: antiquewhite;
                 font-weight: bold;
