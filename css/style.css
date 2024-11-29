@@ -5,10 +5,15 @@
   list-style: none;
 }
 
+* {
+  border: solid 2px #291ef3;
+}
+
 .content {
   min-height: 80px;
   background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+  display: block;
 }
 .content .container {
   max-width: 1200px;
@@ -38,6 +43,50 @@
   bottom: 1.5rem;
   text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
 }
+.content .logo-1 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  right: 18rem;
+  bottom: 0.5rem;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+}
+.content .logo-2 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  right: 18rem;
+  bottom: 0.5rem;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+}
+.content .logo-3 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  right: 18rem;
+  bottom: 0.5rem;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+}
+.content .logo-4 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  right: 18rem;
+  bottom: 0.5rem;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+}
 .content .navbar {
   align-items: center;
 }
@@ -47,7 +96,29 @@
 }
 .content .navbar ul li a {
   font-size: 30px;
-  padding: 20px;
+  padding: 12px;
+  color: #dedede;
+  display: block;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  left: 20rem;
+  bottom: 2rem;
+}
+.content .navbar ul li a:hover {
+  color: #291ef3;
+}
+.content .navbar-1 {
+  align-items: center;
+}
+.content .navbar-1 ul li {
+  position: relative;
+  float: left;
+}
+.content .navbar-1 ul li a {
+  font-size: 35px;
+  padding: 10px;
   color: #dedede;
   display: block;
   text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
@@ -57,7 +128,73 @@
   left: 20rem;
   bottom: 1rem;
 }
-.content .navbar ul li a:hover {
+.content .navbar-1 ul li a:hover {
+  color: #291ef3;
+}
+.content .navbar-2 {
+  align-items: center;
+}
+.content .navbar-2 ul li {
+  position: relative;
+  float: left;
+}
+.content .navbar-2 ul li a {
+  font-size: 35px;
+  padding: 10px;
+  color: #dedede;
+  display: block;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  left: 20rem;
+  bottom: 1rem;
+}
+.content .navbar-2 ul li a:hover {
+  color: #291ef3;
+}
+.content .navbar-3 {
+  align-items: center;
+}
+.content .navbar-3 ul li {
+  position: relative;
+  float: left;
+}
+.content .navbar-3 ul li a {
+  font-size: 35px;
+  padding: 10px;
+  color: #dedede;
+  display: block;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  left: 20rem;
+  bottom: 1rem;
+}
+.content .navbar-3 ul li a:hover {
+  color: #291ef3;
+}
+.content .navbar-4 {
+  align-items: center;
+}
+.content .navbar-4 ul li {
+  position: relative;
+  float: left;
+}
+.content .navbar-4 ul li a {
+  font-size: 35px;
+  padding: 10px;
+  color: #dedede;
+  display: block;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  left: 20rem;
+  bottom: 1rem;
+}
+.content .navbar-4 ul li a:hover {
   color: #291ef3;
 }
 .content .menu label {
@@ -70,6 +207,58 @@
 
 .index-title {
   font-size: 100px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  margin-top: 12%;
+  margin-bottom: 10%;
+  position: relative;
+  bottom: 5rem;
+}
+
+.title-nosotros {
+  font-size: 90px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.title-nosotros {
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.title-servicio {
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.title-logros {
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.title-dedicacion {
+  font-size: 80px;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
   font-weight: bold;
@@ -112,37 +301,68 @@
 }
 
 @media (max-width: 991px) {
-  body {
-    text-decoration: none;
-    min-height: 100dvw;
-    width: 100vw;
-  }
-  body .content {
+  .content {
     min-height: 70px;
     min-width: 100dvw;
   }
-  body .content .menu {
+  .content .menu {
     top: 0;
     padding: 20px;
   }
-  body .content .menu label {
+  .content .menu label {
     display: initial;
   }
-  body .content .menu .navbar {
+  .content .menu .navbar {
+    align-items: center;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
-    background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+    background: linear-gradient(90deg, rgb(19, 186, 19) 0%, rgb(27, 5, 147) 70%);
     display: none;
+    z-index: 1;
   }
-  body .content .menu .navbar .li {
+  .content .menu .navbar ul li {
     width: 100%;
+    z-index: 2;
   }
-  body .content .menu #menu:checked ~ .navbar {
+  .content .menu #menu:checked ~ .navbar {
     display: initial;
   }
-  body .titulo1 .main-title .index-title {
+  .titulo1 .main-title .index-title {
+    font-size: 90px;
+    margin-top: 20%;
+    position: relative;
+    right: 20rem;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    min-height: 80px;
+    min-width: 100%;
+  }
+  .content .menu {
+    top: 0;
+    padding: 20px;
+  }
+  .content .menu label {
+    display: initial;
+  }
+  .content .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgb(192, 25, 226) 0%, rgb(27, 5, 147) 70%);
+    display: none;
+  }
+  .content .menu .navbar .li {
+    width: 100%;
+  }
+  .content .menu #menu:checked ~ .navbar {
+    display: initial;
+  }
+  .titulo1 .main-title .index-title {
     font-size: 40px;
     margin-top: 20%;
   }
@@ -249,7 +469,417 @@ main .index-main .box3 .about-ix-img .imagen-3 {
   left: 26%;
   bottom: 23rem;
 }
+main .index-main .nosotros-main .box4 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .nosotros-main .box4 .about-index .about-ix-title .box4-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .nosotros-main .box4 .about-ix-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 60%;
+  top: 9rem;
+}
+main .index-main .nosotros-main .box4 .about-ix-img .img-4 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: 17.5rem;
+}
+main .index-main .nosotros-main .box5 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .nosotros-main .box5 .about-index .about-ix-title .box5-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .nosotros-main .box5 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: 10rem;
+}
+main .index-main .nosotros-main .box5 .about-ix-img .img-5 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: 15rem;
+}
+main .index-main .main-servicio .box6 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .main-servicio .box6 .about-index .about-ix-title .box6-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .main-servicio .box6 .about-ix-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 60%;
+  top: -23rem;
+}
+main .index-main .main-servicio .box6 .about-ix-img .img-6 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: -5rem;
+}
+main .index-main .main-servicio .box7 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .main-servicio .box7 .about-index .about-ix-title .box7-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .main-servicio .box7 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: -15rem;
+}
+main .index-main .main-servicio .box7 .about-ix-img .img-7 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: -10rem;
+}
+main .index-main .box8 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .box8 .about-index .about-ix-title .box8-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .box8 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 69rem;
+  top: -22rem;
+}
+main .index-main .box8 .about-ix-img .img-8 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: -5rem;
+}
+main .index-main .box9 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20%;
+}
+main .index-main .box9 .about-index .about-ix-title .box9-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .box9 .about-ix-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 60%;
+  top: 9rem;
+}
+main .index-main .box9 .about-ix-img .img-9 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: 17.5rem;
+}
+main .index-main .box10 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .box10 .about-index .about-ix-title .box10-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .box10 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: 11rem;
+}
+main .index-main .box10 .about-ix-img .img-10 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: 12rem;
+}
+main .index-main .box11 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20%;
+}
+main .index-main .box11 .about-index .about-ix-title .box11-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .box11 .about-ix-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 60%;
+  top: 9rem;
+}
+main .index-main .box11 .about-ix-img .img-11 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: 17.5rem;
+}
+main .index-main .box12 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .box12 .about-index .about-ix-title .box12-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .box12 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: 11rem;
+}
+main .index-main .box12 .about-ix-img .img-12 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: 12rem;
+}
+main .index-main .box13 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .box13 .about-index .about-ix-title .box13-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .box13 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: 11rem;
+}
+main .index-main .box13 .about-ix-img .img-13 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: 12rem;
+}
+main .index-main .box14 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20%;
+}
+main .index-main .box14 .about-index .about-ix-title .box14-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+main .index-main .box14 .about-ix-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  right: 60%;
+  top: 9rem;
+}
+main .index-main .box14 .about-ix-img .img-14 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  left: 26%;
+  bottom: 17.5rem;
+}
+main .index-main .box15 {
+  display: block;
+  background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
+  padding: 10px;
+  margin: 20px;
+  margin-top: 20%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
+}
+main .index-main .box15 .about-index .about-ix-title .box15-t1 {
+  color: #dedede;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 4rem;
+}
+main .index-main .box15 .about-ix-text p {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+  font-size: 40px;
+  border: 4px solid;
+  margin-left: 1150px;
+  position: relative;
+  left: -3rem;
+  top: 11rem;
+}
+main .index-main .box15 .about-ix-img .img-15 {
+  width: 750px;
+  height: 450px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: relative;
+  right: 30rem;
+  bottom: 12rem;
+}
 
+@media (max-width: 991px) {
+  .main .index-main {
+    max-width: 100dvw;
+  }
+}
 .footer {
   display: block;
   background: linear-gradient(90deg, rgb(31, 25, 226) 0%, rgb(27, 5, 147) 70%);
