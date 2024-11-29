@@ -3,12 +3,13 @@
     grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
     gap: 15%; // Espaciado entre las cajas (opcional)
     padding: 1rem;
+    max-width: 1200;
 }
 
 %box {
     display: grid;
     grid-template-rows: auto 1fr; // 2 filas: título y contenido
-    padding-bottom: 2rem;
+
     background: linear-gradient(90deg,
             rgb(34, 71, 236)0%,
             rgb(29, 14, 238)70%);
@@ -96,34 +97,31 @@
 .main-container2 {
     display: grid;
     grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
-    gap: 15%; // Espaciado entre las cajas (opcional)
+    gap: 30%; // Espaciado entre las cajas (opcional)
     padding: 1rem;
-}
+    .box{
+        .box-title{
 
-.main-container3 {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
-    gap: 15%; // Espaciado entre las cajas (opcional)
-    margin-bottom: 20%;
-    padding: 1rem;
-}
+        }
+        .box-content{
+            .box-img{
 
-.main-container4 {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr); // 3 filas para los "box"
-    gap: 15%; // Espaciado entre las cajas (opcional)
-    margin-bottom: 50%;
-    padding: 1rem;
+            }
+            .box-txt{
+                grid-column: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+    
+            }
+        }
+    }
 }
-
-.main-container5 {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
-    gap: 15%; // Espaciado entre las cajas (opcional)
-    margin-bottom: 20%;
-    padding: 1rem;
-}
-
 
 @media (max-width:991px) {
     .main-container {
@@ -132,6 +130,7 @@
         padding: 1rem;
         width: 100%;
     }
+    
 
     %box {
         display: grid;
@@ -144,10 +143,15 @@
         .box-title {
             grid-row: 1 / 2; // Primera fila (título)
             text-align: center;
-            font-size: 50px; // Ajusta el tamaño del título
+            font-size: 9rem; // Ajusta el tamaño del título
             font-weight: bold;
             color: azure;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
             text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            h2{
+                font-size: 37px;
+            }
         }
 
         .box-content {
@@ -175,10 +179,14 @@
                 align-items: center; // Centra verticalmente el texto
                 justify-content: center; // Centra horizontalmente el texto
                 text-align: center; // Asegura el centrado de líneas múltiples
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
                 color: antiquewhite;
                 font-weight: bold;
+                p{
+                    font-size: 30px;
+                    padding-top: 4rem;
+                }
             }
         }
     }
@@ -209,11 +217,14 @@
                 align-items: center; // Centra verticalmente el texto
                 justify-content: center; // Centra horizontalmente el texto
                 text-align: center;
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
                 color: antiquewhite;
                 font-weight: bold;
-
+                p{
+                    font-size: 30px;
+                    padding-top: 4rem;
+                }
             }
         }
     }
@@ -225,59 +236,55 @@
         padding: 1rem;
         width: 100%;
     }
-
-    %box {
-        display: grid;
-        grid-template-rows: auto 1fr; // 2 filas: título y contenido
-
-        background: linear-gradient(90deg,
-                rgb(34, 71, 236)0%,
-                rgb(29, 14, 238)70%);
-
-        .box-title {
-            grid-row: 1 / 2; // Primera fila (título)
-            text-align: center;
-            font-size: 50px; // Ajusta el tamaño del título
-            font-weight: bold;
-            color: azure;
-            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-        }
-
-        .box-content {
-            grid-row: 2 / 3; // Segunda fila
+        %box {
             display: grid;
-            grid-template-columns: 1fr; // Dos columnas en la segunda fila
-            gap: 10px;
-
-            .box-img {
-                grid-column: 2 / 3; // Primera columna
-
-                img {
-                    width: 50%;
-                    height: auto;
-                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
-                    width: 450px;
-                    height: 300px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            grid-template-rows: auto 1fr; // 2 filas: título y contenido
+    
+            background: linear-gradient(90deg,
+                    rgb(34, 71, 236)0%,
+                    rgb(29, 14, 238)70%);
+    
+            .box-title {
+                grid-row: 1 / 2; // Primera fila (título)
+                text-align: center;
+                font-size: 50px; // Ajusta el tamaño del título
+                font-weight: bold;
+                color: azure;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            }
+    
+            .box-content {
+                grid-row: 2 / 3; // Segunda fila
+                display: grid;
+                grid-template-columns: 1fr; // Dos columnas en la segunda fila
+                gap: 10px;
+    
+                .box-img {
+                    grid-column: 2 / 3; // Primera columna
+    
+                    img {
+                        width: 50%;
+                        height: auto;
+                        object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                        width: 450px;
+                        height: 300px;
+                        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                    }
+                }
+    
+                .box-txt {
+                    grid-row: 2 / 3; // Segunda columna
+                    display: flex;
+                    align-items: center; // Centra verticalmente el texto
+                    justify-content: center; // Centra horizontalmente el texto
+                    text-align: center; // Asegura el centrado de líneas múltiples
+                    font-size: 2.5rem;
+                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                    color: antiquewhite;
+                    font-weight: bold;
                 }
             }
-
-            .box-txt {
-                grid-row: 2 / 3; // Segunda columna
-                display: flex;
-                align-items: center; // Centra verticalmente el texto
-                justify-content: center; // Centra horizontalmente el texto
-                text-align: center; // Asegura el centrado de líneas múltiples
-                font-size: 2.5rem;
-                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                color: antiquewhite;
-                font-weight: bold;
-            }
         }
-    }
-
-    
-
     .box2 {
 
         .box-content {

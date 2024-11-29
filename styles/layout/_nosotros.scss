@@ -1,0 +1,257 @@
+.nosotros-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
+    gap: 20%; // Espaciado entre las cajas (opcional)
+    padding: 1rem;
+    max-width: 1200;
+    .box-1 {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+        padding-bottom: 4rem;
+        border-radius: 5%;
+
+        .box-title-1 {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 35px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content-1 {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr ; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img-1 {
+                grid-column: 1 / 2; // Primera columna
+                padding-bottom: 10rem;
+                object-fit: cover;
+                img {
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 500px;
+                    height: 350px;
+                    padding-bottom: 10rem;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                   padding-top: 2rem;
+                   padding-bottom: 2rem;
+                }
+            }
+
+            .box-txt-1 {
+                grid-column: 2 / 3; // Segunda columna
+
+                // Centra verticalmente el texto
+                // Centra horizontalmente el texto
+                // Asegura el centrado de líneas múltiples
+                font-size: 2.3rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+                padding-right: 2rem;
+                padding-top: 5rem;
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .nosotros-container {
+        grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+        width: 95%;
+    }
+
+    .box-1 {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+    }
+    .box-title-1 {
+        grid-row: 1 / 2; // Primera fila (título)
+        text-align: center;
+        font-size: 35px; // Ajusta el tamaño del título
+        font-weight: bold;
+        color: azure;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+    }
+    .box-content-1 {
+        grid-row: 2 / 3; // Segunda fila
+        display: grid;
+        grid-template-columns: 1fr  1fr ; // Dos columnas en la segunda fila
+        gap: 10px;
+
+        .box-img-1 {
+            grid-column: 2 / 3; // Primera columna
+            object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+            width: 450px;
+            height: 350px;
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+           
+           
+            
+            
+            
+        }
+        .box-txt-1 {
+            grid-column: 2 / 3; // Segunda columna
+
+            // Centra verticalmente el texto
+            // Centra horizontalmente el texto
+            // Asegura el centrado de líneas múltiples
+            
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            color: antiquewhite;
+            font-weight: bold;
+            p{
+                font-size: 28px;
+
+            }
+         
+        }
+    }
+}
+@media (max-width:768px){
+    .nosotros-container {
+
+        width: 95%;
+    }
+
+    .box-1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+    }
+    .box-title-1 {
+        grid-row: 1 / 2; // Primera fila (título)
+        text-align: center;
+        font-size: 35px; // Ajusta el tamaño del título
+        font-weight: bold;
+        color: azure;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+    }
+    .box-content-1 {
+        grid-row: 2 / 3; // Segunda fila
+        display: grid;
+        grid-template-columns: 1fr  1fr ; // Dos columnas en la segunda fila
+        gap: 10px;
+
+        .box-img-1 {
+            grid-column: 2 / 3; // Primera columna
+             // Asegura que la imagen se ajuste al contenedor
+             width: 550px;
+             height: 300px;
+           padding-top: 2rem;
+           padding-bottom: 2rem;
+           clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            img{
+                display: flex;
+                justify-items: center;
+                justify-content: center ;
+            }
+            
+        }
+        .box-txt-1 {
+            grid-column: 1 / 2; // Segunda columna
+
+            // Centra verticalmente el texto
+            // Centra horizontalmente el texto
+            // Asegura el centrado de líneas múltiples
+            
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            color: antiquewhite;
+            font-weight: bold;
+            p{
+                font-size: 20px;
+
+            }
+         
+        }
+    }
+}
+@media (max-width:576px){
+    .nosotros-container {
+        grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+        width: 95%;
+    }
+
+    .box-1 {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+    }
+    .box-title-1 {
+        grid-row: 1 / 2; // Primera fila (título)
+        text-align: center;
+        font-size: 35px; // Ajusta el tamaño del título
+        font-weight: bold;
+        color: azure;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+    }
+    .box-content-1 {
+        grid-row: 2 / 3; // Segunda fila
+        display: grid;
+        grid-template-columns: 1fr auto; // Dos columnas en la segunda fila
+        gap: 10px;
+
+        .box-img-1 {
+            grid-column: 2 / 3; // Primera columna
+             // Asegura que la imagen se ajuste al contenedor
+            width: 150px;
+            height:auto;
+           padding-top: 2rem;
+           padding-bottom: 2rem;
+           clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            
+            
+        }
+        .box-txt-1 {
+            grid-column: 2 / 3; // Segunda columna
+
+            // Centra verticalmente el texto
+            // Centra horizontalmente el texto
+            // Asegura el centrado de líneas múltiples
+            
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            color: antiquewhite;
+            font-weight: bold;
+            p{
+                font-size: 20px;
+
+            }
+         
+        }
+    }
+}
