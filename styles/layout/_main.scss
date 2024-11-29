@@ -1,689 +1,311 @@
-main {
-    .index-main {
-        .box1 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 10px;
-            margin-top: 20%;
-            .about-index {
-                .about-ix-title {
-                    .box-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 5rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                color: #ffffff;
-                font-weight: bold;
-                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                font-size: 40px;
-                border: 4px solid;
-                margin-left: 1150px;
-                position: relative;
-                right: 60%;
-                top: 9rem;
+.main-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+    gap: 15%; // Espaciado entre las cajas (opcional)
+    padding: 1rem;
+}
 
-                .box-txt {}
-            }
-            .about-ix-img {
-                .img1 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: 17.5rem;
-                }
-            }
-        }
-        .box2 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box-t2 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 4rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                .box-txt1 {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    left: -3rem;
-                    top: 10rem;
-                }
-            }
-            .about-ix-img {
-                .imagen-2 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    right: 30rem;
-                    bottom: 17.5rem;
-                }
-            }
-        }
-        .box3 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box-t3 {
-                        color: #dedede;
-                        font-weight: bold;
-                        margin-top: 3rem;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
+%box {
+    display: grid;
+    grid-template-rows: auto 1fr; // 2 filas: título y contenido
 
-                    }
-                }
-            }
-            .about-ix-text {
-                .box-txt2 {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    right: 60%;
-                    top: 9rem;
-                }
-            }
-            .about-ix-img {
-                .imagen-3 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: 23rem;
-                }
-            }
-        }
-        //nosotros
-        .nosotros-main {
-            .box4 {
-                display: block;
-                background: linear-gradient(90deg,
-                        rgb(31, 25, 226)0%,
-                        rgb(27, 5, 147)70%);
-                padding: 10px;
-                margin: 20px;
-                margin-top: 20%;
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-                .about-index {
-                    .about-ix-title {
-                        .box4-t1 {
-                            color: #dedede;
-                            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                            font-weight: bold;
-                            font-size: 50px;
-                            margin-top: 5rem;
-                        }
-                    }
-                }
-                .about-ix-text {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    right: 60%;
-                    top: 9rem;
+    background: linear-gradient(90deg,
+            rgb(34, 71, 236)0%,
+            rgb(29, 14, 238)70%);
 
-                    .box-txt {}
-                }
-                .about-ix-img {
-                    .img-4 {
-                        width: 750px;
-                        height: 450px;
-                        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                        position: relative;
-                        left: 26%;
-                        bottom: 17.5rem;
-                    }
-                }
+    .box-title {
+        grid-row: 1 / 2; // Primera fila (título)
+        text-align: center;
+        font-size: 50px; // Ajusta el tamaño del título
+        font-weight: bold;
+        color: azure;
+        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+    }
 
-            }
-            .box5 {
-                display: block;
-                background: linear-gradient(90deg,
-                        rgb(31, 25, 226)0%,
-                        rgb(27, 5, 147)70%);
-                padding: 10px;
-                margin: 20px;
-                margin-top: 20%;
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-                .about-index {
-                    .about-ix-title {
-                        .box5-t1 {
-                            color: #dedede;
-                            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                            font-weight: bold;
-                            font-size: 50px;
-                            margin-top: 4rem;
-                        }
-                    }
-                }
-                .about-ix-text {
-                    p {
-                        color: #ffffff;
-                        font-weight: bold;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-size: 40px;
-                        border: 4px solid;
-                        margin-left: 1150px;
-                        position: relative;
-                        left: -3rem;
-                        top: 10rem;
-                    }
-                }
-                .about-ix-img {
-                    .img-5 {
-                        width: 750px;
-                        height: 450px;
-                        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                        position: relative;
-                        right: 30rem;
-                        bottom: 15rem;
-                    }
-                }
-            }
-        }
-        //termina nosotros main
-        //servicios
-        .main-servicio {
-            .box6 {
-                display: block;
-                background: linear-gradient(90deg,
-                        rgb(31, 25, 226)0%,
-                        rgb(27, 5, 147)70%);
-                padding: 10px;
-                margin: 20px;
-                margin-top: 20%;
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-                .about-index {
-                    .about-ix-title {
-                        .box6-t1 {
-                            color: #dedede;
-                            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                            font-weight: bold;
-                            font-size: 50px;
-                            margin-top: 5rem;
-                        }
-                    }
-                }
-                .about-ix-text {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    right: 60%;
-                    top: -23rem;
+    .box-content {
+        grid-row: 2 / 3; // Segunda fila
+        display: grid;
+        grid-template-columns: 1fr 1fr; // Dos columnas en la segunda fila
+        gap: 10px;
 
-                    .box-txt {}
-                }
-                .about-ix-img {
-                    .img-6 {
-                        width: 750px;
-                        height: 450px;
-                        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                        position: relative;
-                        left: 26%;
-                        bottom: -5rem;
-                    }
-                }
+        .box-img {
+            grid-column: 1 / 2; // Primera columna
 
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                width: 550px;
+                height: 400px;
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             }
-            .box7 {
-                display: block;
-                background: linear-gradient(90deg,
-                        rgb(31, 25, 226)0%,
-                        rgb(27, 5, 147)70%);
-                padding: 10px;
-                margin: 20px;
-                margin-top: 20%;
-                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-                .about-index {
-                    .about-ix-title {
-                        .box7-t1 {
-                            color: #dedede;
-                            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                            font-weight: bold;
-                            font-size: 50px;
-                            margin-top: 4rem;
-                        }
-                    }
-                }
-                .about-ix-text {
-                    p {
-                        color: #ffffff;
-                        font-weight: bold;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-size: 40px;
-                        border: 4px solid;
-                        margin-left: 1150px;
-                        position: relative;
-                        left: -3rem;
-                        top: -15rem;
-                    }
-                }
-                .about-ix-img {
-                    .img-7 {
-                        width: 750px;
-                        height: 450px;
-                        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                        position: relative;
-                        right: 30rem;
-                        bottom: -10rem;
-                    }
-                }
-            }
+        }
 
-        }
-        .box8 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box8-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 5rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                p {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    right: 69rem;
-                    top: -22rem;
-                }
-            }
-            .about-ix-img {
-                .img-8 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: -5rem;
-                }
-            }
-
-        }
-        //logros
-        .box9 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 10px;
-            margin-top: 20%;
-            .about-index {
-                .about-ix-title {
-                    .box9-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 5rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                color: #ffffff;
-                font-weight: bold;
-                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                font-size: 40px;
-                border: 4px solid;
-                margin-left: 1150px;
-                position: relative;
-                right: 60%;
-                top: 9rem;
-
-                .box-txt {}
-            }
-            .about-ix-img {
-                .img-9 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: 17.5rem;
-                }
-            }
-        }
-        .box10 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box10-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 4rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                p {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    left: -3rem;
-                    top: 11rem;
-                }
-            }
-            .about-ix-img {
-                .img-10 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    right: 30rem;
-                    bottom: 12rem;
-                }
-            }
-        }
-        .box11 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 10px;
-            margin-top: 20%;
-            .about-index {
-                .about-ix-title {
-                    .box11-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 5rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                color: #ffffff;
-                font-weight: bold;
-                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                font-size: 40px;
-                border: 4px solid;
-                margin-left: 1150px;
-                position: relative;
-                right: 60%;
-                top: 9rem;
-
-                .box-txt {}
-            }
-            .about-ix-img {
-                .img-11 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: 17.5rem;
-                }
-            }
-        }
-        .box12 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box12-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 4rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                p {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    left: -3rem;
-                    top: 11rem;
-                }
-            }
-            .about-ix-img {
-                .img-12 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    right: 30rem;
-                    bottom: 12rem;
-                }
-            }
-        }
-        //dedicacion
-        .box13 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box13-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 4rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                p {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    left: -3rem;
-                    top: 11rem;
-                }
-            }
-            .about-ix-img {
-                .img-13 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    right: 30rem;
-                    bottom: 12rem;
-                }
-            }
-        }
-        .box14 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 10px;
-            margin-top: 20%;
-            .about-index {
-                .about-ix-title {
-                    .box14-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 5rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                color: #ffffff;
-                font-weight: bold;
-                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                font-size: 40px;
-                border: 4px solid;
-                margin-left: 1150px;
-                position: relative;
-                right: 60%;
-                top: 9rem;
-
-                .box-txt {}
-            }
-            .about-ix-img {
-                .img-14 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    left: 26%;
-                    bottom: 17.5rem;
-                }
-            }
-        }
-        .box15 {
-            display: block;
-            background: linear-gradient(90deg,
-                    rgb(31, 25, 226)0%,
-                    rgb(27, 5, 147)70%);
-            padding: 10px;
-            margin: 20px;
-            margin-top: 20%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.87);
-            .about-index {
-                .about-ix-title {
-                    .box15-t1 {
-                        color: #dedede;
-                        text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                        font-weight: bold;
-                        font-size: 50px;
-                        margin-top: 4rem;
-                    }
-                }
-            }
-            .about-ix-text {
-                p {
-                    color: #ffffff;
-                    font-weight: bold;
-                    text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-                    font-size: 40px;
-                    border: 4px solid;
-                    margin-left: 1150px;
-                    position: relative;
-                    left: -3rem;
-                    top: 11rem;
-                }
-            }
-            .about-ix-img {
-                .img-15 {
-                    width: 750px;
-                    height: 450px;
-                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                    position: relative;
-                    right: 30rem;
-                    bottom: 12rem;
-                }
-            }
+        .box-txt {
+            grid-column: 2 / 3; // Segunda columna
+            display: flex;
+            align-items: center; // Centra verticalmente el texto
+            justify-content: center; // Centra horizontalmente el texto
+            text-align: center; // Asegura el centrado de líneas múltiples
+            font-size: 3rem;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            color: antiquewhite;
+            font-weight: bold;
         }
     }
 }
 
+.box {
+    @extend %box;
+}
 
+.box2 {
+    @extend %box;
 
+    .box-content {
+        grid-template-columns: 1fr 1fr; // Mantiene dos columnas pero con orden invertido
 
+        .box-img2 {
+            grid-column: 1 / 2; // Imagen en la primera columna
 
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                width: 550px;
+                height: 400px;
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            }
+        }
 
-@media(max-width:991px){
-  
-    .main{
-        .index-main{
-            max-width: 100dvw;
+        .box-txt2 {
+            grid-column: 2 / 3; // Texto en la segunda columna
+            display: flex;
+            align-items: center; // Centra verticalmente el texto
+            justify-content: center; // Centra horizontalmente el texto
+            text-align: center;
+            font-size: 3rem;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+            color: antiquewhite;
+            font-weight: bold;
+
         }
     }
- }
+}
+
+.main-container2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
+    gap: 15%; // Espaciado entre las cajas (opcional)
+    padding: 1rem;
+}
+
+.main-container3 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+    gap: 15%; // Espaciado entre las cajas (opcional)
+    margin-bottom: 20%;
+    padding: 1rem;
+}
+
+.main-container4 {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); // 3 filas para los "box"
+    gap: 15%; // Espaciado entre las cajas (opcional)
+    margin-bottom: 50%;
+    padding: 1rem;
+}
+
+.main-container5 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+    gap: 15%; // Espaciado entre las cajas (opcional)
+    margin-bottom: 20%;
+    padding: 1rem;
+}
+
+
+@media (max-width:991px) {
+    .main-container {
+        grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+    }
+
+    %box {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+        .box-title {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 50px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img {
+                grid-column: 2 / 3; // Primera columna
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 450px;
+                    height: 300px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt {
+                grid-row: 2 / 3; // Segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center; // Asegura el centrado de líneas múltiples
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    .box2 {
+
+        .box-content {
+            grid-template-rows: 1fr auto; // Mantiene dos columnas pero con orden invertido
+
+            .box-img2 {
+                grid-column: 2 / 3; // Imagen en la primera columna
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 450px;
+                    height: 300px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt2 {
+                grid-row: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .main-container {
+        grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
+        gap: 15%; // Espaciado entre las cajas (opcional)
+        padding: 1rem;
+    }
+
+    %box {
+        display: grid;
+        grid-template-rows: auto 1fr; // 2 filas: título y contenido
+
+        background: linear-gradient(90deg,
+                rgb(34, 71, 236)0%,
+                rgb(29, 14, 238)70%);
+
+        .box-title {
+            grid-row: 1 / 2; // Primera fila (título)
+            text-align: center;
+            font-size: 50px; // Ajusta el tamaño del título
+            font-weight: bold;
+            color: azure;
+            text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+        }
+
+        .box-content {
+            grid-row: 2 / 3; // Segunda fila
+            display: grid;
+            grid-template-columns: 1fr; // Dos columnas en la segunda fila
+            gap: 10px;
+
+            .box-img {
+                grid-column: 2 / 3; // Primera columna
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 450px;
+                    height: 300px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt {
+                grid-row: 2 / 3; // Segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center; // Asegura el centrado de líneas múltiples
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+
+    .box2 {
+
+        .box-content {
+            grid-template-rows: 1fr auto; // Mantiene dos columnas pero con orden invertido
+
+            .box-img2 {
+                grid-column: 2 / 3; // Imagen en la primera columna
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover; // Asegura que la imagen se ajuste al contenedor
+                    width: 450px;
+                    height: 300px;
+                    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                }
+            }
+
+            .box-txt2 {
+                grid-row: 2 / 3; // Texto en la segunda columna
+                display: flex;
+                align-items: center; // Centra verticalmente el texto
+                justify-content: center; // Centra horizontalmente el texto
+                text-align: center;
+                font-size: 2.5rem;
+                text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
+                color: antiquewhite;
+                font-weight: bold;
+
+            }
+        }
+    }
+}
