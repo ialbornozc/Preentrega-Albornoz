@@ -5,174 +5,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+<header>
+    <div class="content">
+        <div class="menu container">
+            <a href="../index.html" class="logo">Los audaces</a>
 
-<body>
-    <header>
-        <div class="content">
-            <div class="menu container">
-                
-                    <a href="../index.html" class="logo">Los audaces</a>
-                
-                <input type="checkbox" id="menu">
-                <label for="menu">
-
-                    <img src="../images/menu.png" class="menu-icono" alt="menu">
-
-                </label>
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="../index.html">inicio</a></li>
-                        <li><a href="../pages/sobre-nosotros.html">nosotros</a></li>
-                        <li><a href="../pages/servicios.html">servicio</a></li>
-                        <li><a href="../pages/logros.html">logros</a></li>
-                        <li><a href="#contacto">contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <div class="title-dedicacion">
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-
-
-
-            <h1>dedicacion</h1>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="../images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">inicio</a></li>
+                    <li><a href="./nosotros.html">nosotros</a></li>
+                    <li><a href="./servicios.html">servicios</a></li>
+                    <li><a href="./logros.html">logros</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
+</header>
+<div class="main-title">
+    <h1>Abogacia y Acesoria</h1>
+</div>
+
+<body>
     <main class="main">
-        <div class="dedicacion-container">
-            <section class="box">
-                <div class="box-title">
-                    <h2>guiar y acesorar
-                    </h2>
+        <div class="main-container">
+            <!-- Box 1 -->
+            <section data-aos="fade-left" class="box">
+                <div data-aos="fade-right" class="box-title">
+                    <h2>Guiar y acesorar</h2>
                 </div>
                 <div class="box-content">
-                <div class="box-img">
-                    <img src="../images/juicio-deducirse-gastos-judiciales_2.jpg" alt="foto-problmeas">
-                </div>
-                <div class="box-txt">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores enim quibusdam suscipit officia
-                        unde
-                        nam voluptatibus veritatis sed! Quas nihil blanditiis beatae voluptas praesentium itaque velit
-                        optio in,
-                        nesciunt nobis?</p>
-                </div>
-            </div>
-            </section>
-            <section class="box2">
-                <div class="box-title">
-                    <h2>apoyo legal
-                    </h2>
-                </div>
-                <div class="box-content">
-                <div class="box-img">
-                    <img src="../images/apoyo legal.jpg" alt="foto-problmeas">
-                </div>
-                <div class="box-txt">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores enim quibusdam suscipit officia
-                        unde
-                        nam voluptatibus veritatis sed! Quas nihil blanditiis beatae voluptas praesentium itaque velit
-                        optio in,
-                        nesciunt nobis?</p>
-                </div>
-            </div>
-            </section>
-            <section class="box">
-                <div class="box-title">
-                    <h2>ganar juicios
-                    </h2>
-                </div>
-                <div class="box-content">
-                    <div class="box-img">
-                        <img src="../images/abogado gana juicio (500x333).jpg" alt="foto-problmeas">
+                    <div data-aos="flip-left" class="box-img">
+                        <img src="../images/juicio-deducirse-gastos-judiciales_2.jpg" alt="Problemas legales">
                     </div>
-                    <div class="box-txt">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores enim quibusdam suscipit
-                            officia
-                            unde
-                            nam voluptatibus veritatis sed! Quas nihil blanditiis beatae voluptas praesentium itaque
-                            velit
-                            optio in,
-                            nesciunt nobis?</p>
+                    <div data-aos="fade-up-left" class="box-txt">
+                        <p>Nuestra principal objetivo es ayudarte y guiarte en tus procesos legales.</p>
                     </div>
+                </div>
+            </section>
+            <!-- Box 2 -->
+            <section data-aos="fade-left" class="box2">
+                <div data-aos="fade-right" class="box-title">
+                    <h2>Apoyo y guia legal</h2>
+                </div>
+                <div class="box-content">
+                    <div data-aos="flip-left" class="box-img2">
+                        <img src="../images/apoyo legal.jpg" alt="Defensa">
+                    </div>
+                    <div data-aos="fade-up-left" class="box-txt2">
+                        <p>Todos sabemos cuanod hay un problema legal es dificil saber que hacer, pero no te preucupes que nosotros te ayudaremos en este dificil proceso</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Box 3 -->
+            <section data-aos="fade-left" class="box">
+                <div data-aos="fade-right" class="box-title">
+                    <h2>Ganar  los juicios es lo importante</h2>
+                </div>
+                <div class="box-content">
+                    <div data-aos="flip-left" class="box-img">
+                        <img src="../images/abogado gana juicio (500x333).jpg" alt="Éxito">
+                    </div>
+                    <div data-aos="fade-up-left" class="box-txt">
+                        <p>Ahora lo mas importante es hacer que todo falle a tu favor pero lo mas importante es que logres el objetivo legal </p>
+                    </div>
+                </div>
             </section>
         </div>
-
-
-
-
-
-
-
-
     </main>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <footer class="footer">
-        <div class="footer-sec">
-            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-
-                <h2 class="footer-title">no dudes en contactarnos</h2>
+        <div class="footer-contact">
+            <div class="footer-title">
+                <h3>CONTACTANOS</h3>
             </div>
+            <ul>
+                <li><p>direcion:ahumada #345 Santiago centro</p></li>
+                <li><p>numero:56966675544</p></li>
+                <li><p>correo:losaudaces@gmail.com</p></li>
+            </ul>
+    
         </div>
-        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <div class="footer-txt">
-                <div class="footer-contact" id="contacto">
-                    <ul>
-                        <li>correo:blablabla@gmail.com</li>
-                        <li>whatsap : +56955555</li>
-                        <li>direccion: calle 1231 oficina 12123</li>
-                    </ul>
-                </div>
-
-                <div class="footer-red">
-                    <div class="links">
-                        <div class="link">
-                            <div data-aos="zoom-out-up"></div>
-                            <h3 class="footer-sociales">redes sociales</h3>
-                            <ul class="footer-link-redes">
-                                <li>instagram</li>
-                                <li>facebook</li>
-                                <li>LinkDin</li>
-                            </ul>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-            </div>
+        <div class="derechos">
+            <p data-translate="copyrights">&copy; 2024 los audaces.cl . Todos los derechos reservados | Desarrollado por <a href="https://www.linkedin.com/in/ivan-albornoz-a54316174/" target="_blank">Ivan Albornoz</a></p>
         </div>
-        <p class="derechos">© todos los derechos reservados</p>
+    
     </footer>
 
 
 
 
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    Initialize AOS
     <script>
         AOS.init();
-    </script>
-
+      </script>
 
 
 

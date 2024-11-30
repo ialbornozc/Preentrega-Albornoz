@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
-    gap: 15%; // Espaciado entre las cajas (opcional)
+    gap: 25%; // Espaciado entre las cajas (opcional)
     padding: 1rem;
     max-width: 1200;
 }
@@ -9,11 +9,10 @@
 %box {
     display: grid;
     grid-template-rows: auto 1fr; // 2 filas: título y contenido
-
     background: linear-gradient(90deg,
             rgb(34, 71, 236)0%,
             rgb(29, 14, 238)70%);
-
+            
     .box-title {
         grid-row: 1 / 2; // Primera fila (título)
         text-align: center;
@@ -28,6 +27,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr; // Dos columnas en la segunda fila
         gap: 10px;
+        
 
         .box-img {
             grid-column: 1 / 2; // Primera columna
@@ -65,7 +65,7 @@
 
     .box-content {
         grid-template-columns: 1fr 1fr; // Mantiene dos columnas pero con orden invertido
-
+        
         .box-img2 {
             grid-column: 1 / 2; // Imagen en la primera columna
 
@@ -78,7 +78,7 @@
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             }
         }
-
+        
         .box-txt2 {
             grid-column: 2 / 3; // Texto en la segunda columna
             display: flex;
@@ -99,7 +99,9 @@
     grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
     gap: 30%; // Espaciado entre las cajas (opcional)
     padding: 1rem;
+    
     .box{
+        
         .box-title{
 
         }
@@ -122,6 +124,9 @@
         }
     }
 }
+
+
+
 
 @media (max-width:991px) {
     .main-container {
