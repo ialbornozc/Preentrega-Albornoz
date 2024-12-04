@@ -4,6 +4,7 @@
     gap: 30%; // Espaciado entre las cajas (opcional)
     padding: 1rem;
     max-width: 1200;
+    z-index: 1;
 }
 
 %box {
@@ -704,7 +705,7 @@
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
-        margin-bottom: 3rem;
+        margin-bottom: 8rem;
     }
     .main-container3 {
         grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
@@ -826,7 +827,7 @@
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
-        margin-bottom: 8rem;
+        margin-bottom: 9rem;
     }
     .main-container3 {
         grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"

@@ -7,7 +7,7 @@ footer {
     margin-top: 100dvh;
     max-width: 100dvw;
     background-attachment: fixed;
-
+z-index: 2;
     .footer-title {
         color: #ffebcd;
         font-weight: bolder;
@@ -192,11 +192,11 @@ footer {
         background: linear-gradient(90deg,
                 rgb(34, 71, 236)0%,
                 rgb(29, 14, 238)70%);
-        margin-top: 100dvh;
+        margin-top: 100vh;
         max-width: 100dvw;
         align-items: center;
         text-align: center;
-        max-height: 50%;
+        max-height: 25%;
         .footer-title {
             color: #ffebcd;
             font-weight: bolder;
@@ -242,11 +242,11 @@ footer {
         background: linear-gradient(90deg,
                 rgb(34, 71, 236)0%,
                 rgb(29, 14, 238)70%);
-        margin-top: 100dvh;
+        margin-top: 100vh;
         max-width: 100dvw;
         align-items: center;
         text-align: center;
-        max-height: 50%;
+        max-height: 25%;
         .footer-title {
             color: #ffebcd;
             font-weight: bolder;
