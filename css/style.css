@@ -221,7 +221,7 @@ h1 {
 .main-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 25%;
+  gap: 30%;
   padding: 1rem;
   max-width: 1200;
 }
@@ -294,26 +294,8 @@ h1 {
 
 .main-container2 {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 30%;
-  padding: 1rem;
-}
-.main-container2 .box .box-content .box-txt {
-  grid-column: 2/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 2px #000, -2px 2px #000, 2px 2px 2px #000, -2px 2px #000;
-  color: antiquewhite;
-  font-weight: bold;
-}
-
-.main-container2 {
-  display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 10%;
+  gap: 30%;
   padding: 1rem;
   max-width: 1200;
 }
@@ -361,7 +343,7 @@ h1 {
 .main-container3 {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  gap: 20%;
+  gap: 50%;
   padding: 1rem;
   max-width: 1200;
   margin-top: 10rem;
@@ -411,10 +393,10 @@ h1 {
 .main-container4 {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
-  gap: 10%;
+  gap: 30%;
   padding: 1rem;
   max-width: 1200;
-  margin-bottom: 3rem;
+  margin-bottom: 50rem;
 }
 
 .box, .box2 {
@@ -460,10 +442,10 @@ h1 {
 .main-container5 {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 10%;
+  gap: 30%;
   padding: 1rem;
   max-width: 1200;
-  margin-bottom: -10rem;
+  margin-bottom: -1rem;
 }
 
 .box, .box2 {
@@ -527,7 +509,7 @@ h1 {
   }
   .main-container4 {
     grid-template-rows: repeat(4, 1fr);
-    gap: 10%;
+    gap: 20%;
     padding: 1rem;
     width: 100%;
   }
@@ -641,6 +623,8 @@ h1 {
     gap: 10%;
     padding: 1rem;
     width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
   .main-container5 {
     grid-template-rows: repeat(3, 1fr);
@@ -934,6 +918,8 @@ h1 {
     gap: 10%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 0rem;
+    margin-top: 7rem;
   }
   .main-container5 {
     grid-template-rows: repeat(3, 1fr);
