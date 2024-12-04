@@ -803,30 +803,35 @@ h1 {
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container2 {
     grid-template-rows: repeat(3, 1fr);
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container3 {
     grid-template-rows: repeat(2, 1fr);
     gap: 20%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container4 {
     grid-template-rows: repeat(4, 1fr);
     gap: 10%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container5 {
     grid-template-rows: repeat(3, 1fr);
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .box, .box2 {
     display: grid;
@@ -900,18 +905,21 @@ h1 {
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container2 {
     grid-template-rows: repeat(3, 1fr);
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container3 {
     grid-template-rows: repeat(2, 1fr);
     gap: 20%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .main-container4 {
     grid-template-rows: repeat(4, 1fr);
@@ -920,12 +928,14 @@ h1 {
     width: 100%;
     margin-bottom: 0rem;
     margin-top: 7rem;
+    margin-bottom: 3rem;
   }
   .main-container5 {
     grid-template-rows: repeat(3, 1fr);
     gap: 15%;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
   .box, .box2 {
     display: grid;
@@ -1205,7 +1215,7 @@ footer .link-1:hover {
     color: #000;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   footer {
     display: grid;
     grid-template-columns: 1fr;

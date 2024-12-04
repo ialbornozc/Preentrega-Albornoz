@@ -697,30 +697,35 @@
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container2 {
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container3 {
         grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
         gap:20%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container4 {
         grid-template-rows: repeat(4, 1fr); // 3 filas para los "box"
         gap: 10%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container5{
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     %box {
@@ -814,18 +819,21 @@
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container2 {
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container3 {
         grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
         gap:20%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
     .main-container4 {
         grid-template-rows: repeat(4, 1fr); // 3 filas para los "box"
@@ -834,12 +842,14 @@
         width: 100%;
         margin-bottom: 0rem;
         margin-top: 7rem;
+        margin-bottom: 3rem;
     }
     .main-container5{
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
         gap: 15%; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     %box {
