@@ -905,7 +905,7 @@ h1 {
     gap: 15%;
     padding: 1rem;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
   }
   .main-container2 {
     grid-template-rows: repeat(3, 1fr);
@@ -1178,6 +1178,7 @@ footer .link-1:hover {
     max-width: 100dvw;
     align-items: center;
     text-align: center;
+    max-height: 50%;
   }
   footer .footer-title {
     color: #ffebcd;
@@ -1224,6 +1225,7 @@ footer .link-1:hover {
     max-width: 100dvw;
     align-items: center;
     text-align: center;
+    max-height: 50%;
   }
   footer .footer-title {
     color: #ffebcd;
