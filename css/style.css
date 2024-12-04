@@ -999,6 +999,7 @@ footer {
   background: linear-gradient(90deg, rgb(34, 71, 236) 0%, rgb(29, 14, 238) 70%);
   margin-top: 100dvh;
   max-width: 100dvw;
+  background-attachment: fixed;
 }
 footer .footer-title {
   color: #ffebcd;
