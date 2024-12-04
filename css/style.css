@@ -910,10 +910,10 @@ h1 {
   }
   .main-container2 {
     grid-template-rows: repeat(3, 1fr);
-    gap: -8%;
+    gap: 10rem;
     padding: 1rem;
     width: 100%;
-    margin-bottom: 20rem;
+    margin-bottom: 16rem;
   }
   .main-container3 {
     grid-template-rows: repeat(2, 1fr);

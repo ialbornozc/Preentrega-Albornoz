@@ -824,10 +824,10 @@
     }
     .main-container2 {
         grid-template-rows: repeat(3, 1fr); // 3 filas para los "box"
-        gap: -8%; // Espaciado entre las cajas (opcional)
+        gap: 10rem; // Espaciado entre las cajas (opcional)
         padding: 1rem;
         width: 100%;
-        margin-bottom: 20rem;
+        margin-bottom: 16rem;
     }
     .main-container3 {
         grid-template-rows: repeat(2, 1fr); // 3 filas para los "box"
