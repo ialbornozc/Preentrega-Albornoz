@@ -912,7 +912,7 @@ h1 {
     gap: 15%;
     padding: 1rem;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
   }
   .main-container3 {
     grid-template-rows: repeat(2, 1fr);
@@ -927,8 +927,8 @@ h1 {
     padding: 1rem;
     width: 100%;
     margin-bottom: 0rem;
-    margin-top: 7rem;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
   }
   .main-container5 {
     grid-template-rows: repeat(3, 1fr);
